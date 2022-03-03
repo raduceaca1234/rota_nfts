@@ -2322,13 +2322,14 @@ i.font60 {
     width: 100%;
     left: 50%;
     transition: 2s ease;
+    
     &:hover{
       transition: 2s ease;
     }
 }
 .feature-box:hover .inner i.wm {
     transform: scale(1.2);
-    color: rgba(0, 0, 0, .05);
+    color: rgba(244,205,0, .05);
     z-index: 0;
 }
 .feature-box:hover .inner i.circle {
@@ -2338,7 +2339,8 @@ i.font60 {
 }
 .feature-box.style-3 {
     position: relative;
-    overflow: hidden !important;  
+    overflow: hidden !important;   
+    margin-top: 10%;
 }
 .feature-box.style-3 i {
     display: block;
@@ -2359,15 +2361,17 @@ i.font60 {
     background: none;
     width: auto;
     height: auto;
-    color: rgba(131,100,226, .1);
+    color: rgba(3, 99, 182, .1);
     right: 0;
     top: 30%;
 }
 .feature-box.style-3:hover i.wm {
+  
     -webkit-transform: rotate(-25deg);
     -moz-transform: rotate(-25deg);
     -o-transform: rotate(-25deg);
     transform: rotate(-25deg);
+    color: rgba(244,205,0, .09);
 }
 .feature-box.style-4 i {
     position: relative;
@@ -2376,6 +2380,7 @@ i.font60 {
     min-width: 60px;
 }
 .feature-box.style-4 .wm {
+  
     display: block;
     position: absolute;
     font-size: 160px;
@@ -2397,7 +2402,9 @@ i.font60 {
 }
 .feature-box.f-boxed {
     overflow: none;
+    height: 100%;
     padding: 50px;
+    padding-bottom: 10px;
     background: rgba(131,100,226, .1);
     border-radius: 6px;
     -moz-border-radius: 6px;

@@ -56,53 +56,23 @@ const tabs= () => (
     <section className="container">
       <div className="column">
         <div className='row-md-6 mt-3'>
-          <h3>Our cause/Ucraine</h3>
+          <h3>Our cause</h3>
           <div id="tabs2">
             <Tabs fill defaultActiveKey="home">
-              <Tab eventKey="home" title="Tab1">
+              <Tab eventKey="home" title="What are we trying to do?">
                   <div>
-                  <p>Consequat occaecat ullamco amet non eiusmod nostrud 
-                  dolore irure incididunt est duis anim sunt officia. 
-                  Fugiat velit proident aliquip nisi incididunt nostrud exercitation 
-                  proident est nisi. Irure magna elit commodo anim ex veniam culpa 
-                  eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat 
-                  eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. 
-                  Occaecat sit eu exercitation irure Lorem incididunt nostrud.Consequat occaecat ullamco amet non eiusmod nostrud 
-                  dolore irure incididunt est duis anim sunt officia. 
-                  Fugiat velit proident aliquip nisi incididunt nostrud exercitation 
-                  proident est nisi. Irure magna elit commodo anim ex veniam culpa 
-                  eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat 
-                  eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. 
-                  Occaecat sit eu exercitation irure Lorem incididunt nostrud.Consequat occaecat ullamco amet non eiusmod nostrud 
-                  dolore irure incididunt est duis anim sunt officia. 
-                  Fugiat velit proident aliquip nisi incididunt nostrud exercitation 
-                  proident est nisi. Irure magna elit commodo anim ex veniam culpa 
-                  eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat 
-                  eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. 
-                  Occaecat sit eu exercitation irure Lorem incididunt nostrud.</p>
+                  <p>We want to make the world a better place, by making positive changes and taking concrete actions together. We like to work in teams and bring forward interesting and up-to-date projects to promote peace, fellowship and connection. And because it’s a huge conflict - excuse us: a whole war - above us, in Ukraine, we want to help out our neighbors in as many ways as possible. So we decided to make an NFT fundraising and to give the opportunity to all NFT enthusiasts to participate, donate and do good together. We are transparent, sincere, creative and well-intentioned. We’re also firm believers that there’s a lot of kindness in people’s hearts and we’re convinced that we can create something together from this digital world. We are already involved in humanitarian actions, physically we’re putting a lot of work in our projects, but we are thinking the digital community should be also an important part of our joint efforts. </p>
                   </div>
                 </Tab>
-                <Tab eventKey="profile" title="Tab2">
+                <Tab eventKey="profile" title="So what’s the whole concept?">
                   <div>
-                  <p>Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa 
-                  mollit commodo mollit ex. Aute sunt incididunt amet commodo est 
-                  sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate 
-                  exercitation cillum id incididunt elit sunt. Qui minim sit magna 
-                  Lorem id et dolore velit Lorem amet exercitation duis deserunt. 
-                  Anim id labore elit adipisicing ut in id occaecat pariatur ut 
-                  ullamco ea tempor duis.</p>
+                  <p>We are bringing forward to the digital stage the first Romanian series of NFTs, built on the Elrond blockchain with an entirely charitable purpose, made in order to support the Ukrainian refugees. NoWar NFT is a unique collection of 10.000 NFTs which aims to raise funds for those in need. Everything that we will raise together out of this project will be directed to various causes that support the Ukrainians and their refugees. The situation in Ukraine and here in Romania - especially at the borders - is changing every hour and it’s clear that we live difficult times. But in difficult times, strong and good people must raise, to empower, inspire and prove humanity and solidarity. The art of NoWar NFT is based on real life characters we have seen these days - either face to face, either on TV, either offering a much needed help, either slowly crossing the border with tears in the eyes and hope in the heart. NoWar NFT promotes real-life heroes. The ones who are willing to go an extra mile to do good, to develop, to persevere. </p>
                   </div>
                 </Tab>
-                <Tab eventKey="contact" title="Tab3">
+                <Tab eventKey="contact" title="Wow, that’s nice! And big! But who’s the team?">
                   <div>
-                  <p>Est quis nulla laborum officia ad nisi ex nostrud 
-                  culpa Lorem excepteur aliquip dolor aliqua irure ex. 
-                  Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit 
-                  laborum veniam eu veniam. Eiusmod minim exercitation fugiat 
-                  irure ex labore incididunt do fugiat commodo aliquip sit id 
-                  deserunt reprehenderit aliquip nostrud. Amet ex cupidatat excepteur 
-                  aute veniam incididunt mollit 
-                  cupidatat esse irure officia elit do ipsum ullamco Lorem.</p>
+                  <p>Probably we do need to be a bit idealistic in order to have an impact. So the first thing you should know about us is that we like to get involved. To stay informed. To take action. We are people from different cities of Romania, with different backgrounds and different skills, but with similar principles and beliefs. We are all part of Rotaract Clubs of District 2241 Romania & Republic of Moldova and we all have volunteering in our blood. Rotaract as an organization is part of Rotary International which is a global network of 1.4 million neighbors, friends, leaders, and problem-solvers who see a world where people unite and take action to create lasting change – across the globe, in our communities, and in ourselves.</p>
+                  <p>Solving real problems takes real commitment and vision. For more than 110 years, Rotary's people of action have used their passion, energy, and intelligence to take action on sustainable projects. We are always working to better our world, and we stay committed to the end.</p>
                   </div>
                 </Tab>
               </Tabs>
