@@ -37,55 +37,112 @@ const GlobalStyles = createGlobalStyle`
   }
 `;
 
-const tabs= () => (
-<div>
-  <GlobalStyles/>
-    <section className='jumbotron breadcumb no-bg' style={{backgroundImage: `url(${'./img/background/bg-shape-1-dark.jpg'})`}}>
-        <div className='mainbreadcumb'>
-          <div className='container'>
-            <div className='row m-10-hor'>
-              <div className='col-12 text-center'>
-                <h1>Cause</h1>
-                <p>Description</p>
-              </div>
+const tabs = () => (
+  <div>
+    <GlobalStyles />
+    <section className='jumbotron breadcumb no-bg' style={{ backgroundImage: `url(${'./img/background/bg-shape-1-dark.jpg'})` }}>
+      <div className='mainbreadcumb'>
+        <div className='container'>
+          <div className='row m-10-hor'>
+            <div className='col-12 text-center'>
+              <h1>Whitepaper</h1>
+              <p>Description</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
     <section className="container">
       <div className="column">
         <div className='row-md-6 mt-3'>
-          <h3>Our cause</h3>
+          {/* <h3>Our cause</h3> */}
           <div id="tabs2">
             <Tabs fill defaultActiveKey="home">
-              <Tab eventKey="home" title="What are we trying to do?">
-                  <div>
-                  <p>We want to make the world a better place, by making positive changes and taking concrete actions together. We like to work in teams and bring forward interesting and up-to-date projects to promote peace, fellowship and connection. And because it’s a huge conflict - excuse us: a whole war - above us, in Ukraine, we want to help out our neighbors in as many ways as possible. So we decided to make an NFT fundraising and to give the opportunity to all NFT enthusiasts to participate, donate and do good together. We are transparent, sincere, creative and well-intentioned. We’re also firm believers that there’s a lot of kindness in people’s hearts and we’re convinced that we can create something together from this digital world. We are already involved in humanitarian actions, physically we’re putting a lot of work in our projects, but we are thinking the digital community should be also an important part of our joint efforts. </p>
-                  </div>
-                </Tab>
-                <Tab eventKey="profile" title="So what’s the whole concept?">
-                  <div>
-                  <p>We are bringing forward to the digital stage the first Romanian series of NFTs, built on the Elrond blockchain with an entirely charitable purpose, made in order to support the Ukrainian refugees. NoWar NFT is a unique collection of 10.000 NFTs which aims to raise funds for those in need. Everything that we will raise together out of this project will be directed to various causes that support the Ukrainians and their refugees. The situation in Ukraine and here in Romania - especially at the borders - is changing every hour and it’s clear that we live difficult times. But in difficult times, strong and good people must raise, to empower, inspire and prove humanity and solidarity. The art of NoWar NFT is based on real life characters we have seen these days - either face to face, either on TV, either offering a much needed help, either slowly crossing the border with tears in the eyes and hope in the heart. NoWar NFT promotes real-life heroes. The ones who are willing to go an extra mile to do good, to develop, to persevere. </p>
-                  </div>
-                </Tab>
-                <Tab eventKey="contact" title="Wow, that’s nice! And big! But who’s the team?">
-                  <div>
-                  <p>Probably we do need to be a bit idealistic in order to have an impact. So the first thing you should know about us is that we like to get involved. To stay informed. To take action. We are people from different cities of Romania, with different backgrounds and different skills, but with similar principles and beliefs. We are all part of Rotaract Clubs of District 2241 Romania & Republic of Moldova and we all have volunteering in our blood. Rotaract as an organization is part of Rotary International which is a global network of 1.4 million neighbors, friends, leaders, and problem-solvers who see a world where people unite and take action to create lasting change – across the globe, in our communities, and in ourselves.</p>
-                  <p>Solving real problems takes real commitment and vision. For more than 110 years, Rotary's people of action have used their passion, energy, and intelligence to take action on sustainable projects. We are always working to better our world, and we stay committed to the end.</p>
-                  </div>
-                </Tab>
-              </Tabs>
+              <Tab eventKey="home" title="Who is the team?">
+                <div>
+                  <p>
+
+                    Rotaract District 2241 through Rotaract clubs from the district
+                  </p>
+                  <p>What is a district and what is a Rotaract club?</p>
+                  <p>
+                    What is a district and what is a Rotaract club?
+                    Rotaract is a service organization that is spread through all around the world and brings together business, professional and community leaders in order to provide service to others, promote integrity and advance good will, peace, and understanding in the world.
+                    The Rotary family is formed from Interact clubs, Rotaract clubs, and Rotary clubs. Each club is formed from different age groups formed together in order to do good and to take action. Each geographical area is divided in Districts.
+                    So the Rotaract District 2241 is formed from all the Rotaract clubs from Romania and Republic of Moldova.
+                    We have done many projects along the years and now we have united our forces to help Ukraine.
+                    We have already started to help Ukraine, organized collection centers in different areas, we have sent transports with supplies, helped refugees that arrived at our boarder and we found ourselves unable to do more cause of the lack of funds.
+                    We know the needs and constantly have people who we can communicate from all around the country and from Ukraine and want to do more.
+                    For that we started the NoWar NFT to gather funds. All the funds we gather will be donated.
+                  </p>
+                </div>
+              </Tab>
+              <Tab eventKey="profile" title="What will we do after mint?">
+                <div>
+                  <p>Effective aid, sustainable aid. </p>
+                  <p>With a national reach, our volunteers are on the scene every day to see what refugees need. Their needs are constantly changing and with a flow of food and items sent by different organisations, resources are often wasted and the needs remain unmet. We aim to make efficient and sustainable use of the resources at our disposal. </p>
+                  <p>How will we do this?</p>
+                  <p>By being present on the scene, our volunteers will be able to respond to the refugees needs more quickly by accessing the NoWar-NFT fund, without having to do a separate fundraising campaign for funds or products that would prolong the process. Moreover, through this mechanism we are able to respond to needs in a way that is not wasteful, managing resources in a sustainable way, avoiding harming the environment.</p>
+                  <p><strong>All the money we gather will be donated,</strong> and we will not get paid for this. Our benefit is that we can help and do good! </p>
+                  <p>We are going to divide the money as follow:</p>
+                  <h4>Step 1</h4>
+                  <p><strong>We address the Ukrainians that remained in Ukraine and the Refugees than came to Romania.</strong></p>
+                  <p>40% To medical supplies for people from Ukraine as well as for Refugees.</p>
+                  <p>30% To Hygiene products and elementary items</p>
+                  <p>20% To non-perishable goods, housing, transport and integration in the new community</p>
+                  <p>10% We will let the community vote on how this % to be spent depending on the needs</p>
+                  <h4>Step 2</h4>
+                  <p><strong>We address to all Ukrainian citizens that will remain in Romania.</strong></p>
+                  <p>40% Education: language courses, school supplies, books, library pass</p>
+                  <p>30% Essentials: health, hygiene products, food</p>
+                  <p>20% Services: translator, professional retraining courses.</p>
+                  <p>10% community</p>
+                  <p>All of the % above can change depending on what info we get and what needs exist in the moment of the mint.</p>
+                  <p>We are getting different requests like fuel, medical, different supplies. We will be transparent with all we buy and post the on our social channels.</p>
+
+                </div>
+              </Tab>
+              <Tab eventKey="contact" title="What are the benefits?">
+                <div>
+                  <p>All the money will be donated and you will help Ukraine.</p>
+                  <p>We know what are the exact needs and you will be assured your money is not wasted. For example, there are a lot of aliments that have been bought and send to the borders and there is not a big need for that. People want ho help but do not know how or where.
+                    Our organization will manage all the funds and be transparent in the process.
+                  </p>
+                  <p>You will receive a cool NFT piece that you can show of, keep, resell or do as you wish with it.</p>
+                </div>
+              </Tab>
+              <Tab eventKey="Parties" title="Did I hear Parties?">
+                <div>
+                  <p>Every year we will organize a National Conference where you as a non-Rotaract member will be able to join if you own a NFT.</p>
+                  <p>We will have trainings from different domains, learn new skills, team work and at the end socializing and parties.
+                  </p>
+                  <p>You probably heard that before on other projects, what is different is that we have these conferences every year, and it will not be our first one. We have experience on that side and every Rotaract member can confirm.</p>
+                </div>
+              </Tab>
+              <Tab eventKey="Royalties" title="Do you have Royalties?">
+                <div>
+                  <p>We will have 10% royalty from every transaction. We do that to ensure you we will be here along the project working hard. </p>
+                  <p>Also, all the Royalties will be donated!</p>
+                  <p>Where?</p>
+                  <p>For start the Royalties will go to the Ukraine cause. After that we will redirect the funds to another Rotaract cause where is the biggest need.</p>
+                  <p>Our causes till now were based on:</p>
+                  <p>medical – like hospital renovations</p>
+                  <p>learning – like scholarships to students that work hard and do not have the financial support</p>
+                  <p>social – people in need</p>
+                </div>
+              </Tab>
+            </Tabs>
           </div>
         </div>
-           
 
-        </div>
+
+      </div>
     </section>
 
 
-  <Footer />
-</div>
+    <Footer />
+  </div>
 
 );
 export default tabs;

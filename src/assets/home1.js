@@ -6,7 +6,6 @@ import CarouselCollection from '../components/CarouselCollection';
 import ColumnNew from '../components/ColumnNew';
 import ColumnZero from '../components/ColumnZeroTwo';
 import AuthorList from '../components/authorList';
-import Accordion from '../pages/accordion';
 import RoadMap from '../components/RoadMap'
 import Footer from '../components/footer';
 import { createGlobalStyle } from 'styled-components';
@@ -47,35 +46,36 @@ const GlobalStyles = createGlobalStyle`
 const timelineInfo = [
   {
     timelineClass: "block block-left",
-    title: 'Medicine',
-    date_from: '40%',
-    date_to: 'To medical supplies for people from Ukraine as well as for Refugees.'
+    title: 'Platform Development Starts',
+    date_from: 'May 12, 2018',
+    date_to: 'Jun 19, 2018'
   },
   {
     timelineClass: "block block-right mt-30",
-    title: 'Essentials',
-    date_from: '30%',
-    date_to: 'To hygiene products and elementary items'
+    title: 'Groundwork Preparation for ICO',
+    date_from: 'Aug 18, 2018',
+    date_to: 'Sep 23, 2018'
   },
   {
     timelineClass: "block block-left mt-30",
-    title: 'Goods',
-    date_from: '20%',
-    date_to: 'To non-perishable goods, housing, transport and integration in the new community'
+    title: 'Crypto Blockchain Release',
+    date_from: 'Oct 08, 2018',
+    date_to: 'Nov 16, 2018'
   },
   {
     timelineClass: "block block-right mt-30",
-    title: 'Community',
-    date_from: '10%',
-    date_to: 'We will let the community vote on how this % to be spent depending on the needs'
+    title: 'Release Bank & Cards Phase',
+    date_from: 'Dec 28, 2018',
+    date_to: 'Jan 29, 2019'
   }
 ]
 
 const homeone = () => (
   <div>
     <GlobalStyles />
-    
     <section className="jumbotron no-bg">
+      <img />
+      {/* <img style={{backgroundImage: `url(${'./img/background/OIP22.jpg'})`}}/> */}
       <Particle />
       <SliderMainParticle />
     </section>
@@ -107,12 +107,19 @@ const homeone = () => (
       </div>
     </section>
 
+    <section className='container'>
+      <div className='row'>
+        <div className='col-lg-12'>
+          <div className='text-center'>
+            <h2>Popular Items</h2>
+            <div className="small-border"></div>
+          </div>
+        </div>
+      </div>
 
-      <Accordion/>
+      <ColumnNew />
 
-      {/* <ColumnNew /> */}
-
-
+    </section>
 
     <section className='container-fluid bg-gray'>
       <div className='row'>

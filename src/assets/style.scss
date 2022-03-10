@@ -51,7 +51,7 @@ $black_more: #0f0f0f;
 $color: #F4CD00;
 $color_more: #b1ad2f;
 .col-white{
-  color: $white;
+  color: #F3CC01;
 }
 
 /*font*/
@@ -92,7 +92,7 @@ section{
   }
   .small-border {
     display: block;
-    width: 50px;
+    width: 70px;
     height: 2px;
     background: $color;
     border-left: none;
@@ -101,6 +101,19 @@ section{
     border-right-color: currentcolor;
     margin: 18px auto 30px;
   }
+
+  .small-border-white {
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: #0358B6;
+    border-left: none;
+    border-left-color: currentcolor;
+    border-right: none;
+    border-right-color: currentcolor;
+    margin: 18px auto 30px;
+  }
+
   &.bg-gray{ 
     background: #F4CD00;
   }
@@ -645,6 +658,7 @@ p.lead {
     line-height: 1.7em;
     margin-top: 0;
     font-weight: 400;
+    max-width: 70%;
 }
 .btn-main {
     display: block;
@@ -1077,6 +1091,7 @@ a{
   position: relative;
   padding: 0;
   margin: 0;
+
 }
 .slider-wrapper {
   position: relative;
@@ -1361,6 +1376,17 @@ a{
           transition-delay: 0s;
 }
 
+.jumbotron{
+  background-image: url('./OIP22.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  @media only screen and (max-width: 768px) {
+    background-image: url('./OIP221.png');
+    background-size: 100% 100%;
+  }
+
+}
 /*** breadcumb ***/
 .breadcumb{
   border-radius: 0;

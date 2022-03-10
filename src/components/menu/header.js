@@ -3,6 +3,7 @@ import Breakpoint, { BreakpointProvider, setDefaultBreakpoints } from "react-soc
 //import { header } from 'react-bootstrap';
 import { Link } from '@reach/router';
 import useOnclickOutside from "react-cool-onclickoutside";
+import { useHistory } from "react-router-dom";
 
 
 setDefaultBreakpoints([
@@ -91,6 +92,8 @@ const Header = function () {
       window.removeEventListener("scroll", scrollCallBack);
     };
   }, []);
+
+  
   return (
     <header id="myHeader" className='navbar white'>
       <div className='container'>
@@ -140,7 +143,7 @@ const Header = function () {
 
                   </div>
                 </div>
-                <div className='navbar-item'>
+                {/* <div className='navbar-item'>
                   <div ref={ref2}>
                     <div className="dropdown-custom dropdown-toggle btn"
                       onMouseEnter={handleBtnClick2} onMouseLeave={closeMenu2}>
@@ -156,7 +159,7 @@ const Header = function () {
                       )}
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* <div className='navbar-item'>
                   <div ref={ref3}>
                     <div className="dropdown-custom dropdown-toggle btn"
@@ -192,12 +195,18 @@ const Header = function () {
                     <span className='lines'></span>
                   </NavLink>
                 </div>
-
                 <div className='navbar-item'>
+                  <NavLink to="/cause">
+                  Whitepaper
+                    <span className='lines'></span>
+                  </NavLink>
+                </div>
+
+                {/* <div className='navbar-item'>
                   <div ref={ref1}>
                     <div className="dropdown-custom dropdown-toggle btn"
                       onMouseEnter={handleBtnClick1} onMouseLeave={closeMenu1}>
-                      Explore
+                      Whitepaper
                       <span className='lines'></span>
                       {openMenu1 && (
                         <div className='item-dropdown'>
@@ -210,8 +219,8 @@ const Header = function () {
                     </div>
 
                   </div>
-                </div>
-                <div className='navbar-item'>
+                </div> */}
+                {/* <div className='navbar-item'>
                   <div ref={ref2}>
                     <div className="dropdown-custom dropdown-toggle btn"
                       onMouseEnter={handleBtnClick2} onMouseLeave={closeMenu2}>
@@ -227,7 +236,7 @@ const Header = function () {
                       )}
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* <div className='navbar-item'>
                   <div ref={ref3}>
                     <div className="dropdown-custom dropdown-toggle btn"
@@ -256,12 +265,12 @@ const Header = function () {
           </BreakpointProvider>
 
           <div className='mainside'>
-            <NavLink to="/" className="btn-main">Participate</NavLink>
+            <NavLink to='/discord' className="btn-main">Participate</NavLink>
           </div>
 
         </div>
 
-        <button className="nav-icon" onClick={() => btn_icon(!showmenu)} style={{background: '#F3CC00'}}>
+        <button className="nav-icon" onClick={() => btn_icon(!showmenu)} style={{background: '# '}}>
           <div className="menu-line white"></div>
           <div className="menu-line1 white"></div>
           <div className="menu-line2 white"></div>

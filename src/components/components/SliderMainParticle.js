@@ -33,12 +33,11 @@ const slidermainparticle= () => (
               <div className="spacer-single"></div>
               <div className="spacer-double"></div>
               <Reveal className='onStep' keyframes={fadeInUp} delay={300} duration={900} triggerOnce>
-              <h1 className="col-white">Lorem Ipsum.</h1>
+              <h1 className="col-white">NoWarNft</h1>
               </Reveal>
               <Reveal className='onStep' keyframes={fadeInUp} delay={600} duration={900} triggerOnce>
               <p className="lead col-white">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              </p>
+              The first Rotaract NFT project with an entirely charitable purpose, built on the Elrond blockchain, made in order to support the Ukrainian refugees.</p>
               </Reveal>
               <div className="spacer-10"></div>
               <Reveal className='onStep d-inline' keyframes={inline} delay={800} duration={900} triggerOnce>

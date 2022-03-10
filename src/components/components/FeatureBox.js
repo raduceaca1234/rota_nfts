@@ -59,7 +59,7 @@ const featurebox= () => (
               </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 mb-3">
+          {/* <div className="col-lg-4 col-md-6 mb-3">
               <div className="feature-box f-boxed style-3">
                   <div className="text">
                     <Reveal className='onStep' keyframes={fadeInUp} delay={100} duration={600} triggerOnce>
@@ -99,7 +99,7 @@ const featurebox= () => (
                   </div>
                   <i className="wm icon_tags_alt"></i>
               </div>
-          </div>
+          </div> */}
         </div>
 );
 export default featurebox;

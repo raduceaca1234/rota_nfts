@@ -1,5 +1,6 @@
 import React from 'react';
 import { Router, Location, Redirect } from '@reach/router';
+import { BrowserRouter as Route, Link } from 'react-router-dom';
 import ScrollToTopBtn from './menu/ScrollToTop';
 import Header from './menu/header';
 import Home from './pages/home1';
@@ -42,7 +43,7 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 export const ScrollTop = ({ children, location }) => {
-  React.useEffect(() => window.scrollTo(0,0), [location])
+  React.useEffect(() => window.scrollTo(0, 0), [location])
   return children
 }
 
@@ -60,11 +61,11 @@ const PosedRouter = ({ children }) => (
   </Location>
 );
 
-const app= () => (
+const app = () => (
   <div className="wraper">
-  <GlobalStyles />
-    <Header/>
-      <PosedRouter>
+    <GlobalStyles />
+    <Header />
+    <PosedRouter>
       <ScrollTop path="/">
         <Home exact path="/">
           <Redirect to="/home" />
@@ -98,10 +99,10 @@ const app= () => (
         <Alerts path="/alerts" />
         <Progressbar path="/progressbar" />
         <Tabs path="/tabs" /> */}
-        </ScrollTop>
-      </PosedRouter>
+      </ScrollTop>
+    </PosedRouter>
     <ScrollToTopBtn />
-    
+
   </div>
 );
 export default app;
