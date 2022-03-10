@@ -124,8 +124,13 @@ const Header = function () {
                     <span className='lines'></span>
                   </NavLink>
                 </div>
-
                 <div className='navbar-item'>
+                  <NavLink to="/cause">
+                  Whitepaper
+                    <span className='lines'></span>
+                  </NavLink>
+                </div>
+                {/* <div className='navbar-item'>
                   <div ref={ref1}>
                     <div className="dropdown-custom dropdown-toggle btn"
                       onMouseEnter={handleBtnClick1} onMouseLeave={closeMenu1}>
@@ -142,7 +147,7 @@ const Header = function () {
                     </div>
 
                   </div>
-                </div>
+                </div> */}
                 {/* <div className='navbar-item'>
                   <div ref={ref2}>
                     <div className="dropdown-custom dropdown-toggle btn"
@@ -270,7 +275,7 @@ const Header = function () {
 
         </div>
 
-        <button className="nav-icon" onClick={() => btn_icon(!showmenu)} style={{background: '# '}}>
+        <button className="nav-icon" onClick={() => btn_icon(!showmenu)} style={{background: '#F3CC01'}}>
           <div className="menu-line white"></div>
           <div className="menu-line1 white"></div>
           <div className="menu-line2 white"></div>
