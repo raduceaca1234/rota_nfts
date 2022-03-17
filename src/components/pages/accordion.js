@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
 const accordion = () => (
   <div>
     <GlobalStyles />
-    <section className='container'>
+    <section className='container-fluid bg-gray'>
       <div className='row'>
 
         {/* <div className='col-md-6 mb-5'>
@@ -107,10 +107,10 @@ const accordion = () => (
             <h2>Frequently Asked Questions</h2>
             <div className="small-border"></div>
           </div>
-          <Accordion>
+          <Accordion style={{marginLeft: '10%', marginRight: '10%'}}>
             <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="text" eventKey="0">
+              <Card.Header style={{backgroundColor:'#0358B6'}}>
+                <Accordion.Toggle as={Button} variant="text" eventKey="0" style={{color:'#fff'}}>
                   First things first: What the h*ck is an NFT?
                 </Accordion.Toggle>
               </Card.Header>
@@ -120,8 +120,8 @@ const accordion = () => (
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="text" eventKey="1">
+              <Card.Header style={{backgroundColor:'#0358B6'}}>
+                <Accordion.Toggle as={Button} variant="text" eventKey="1" style={{color:'#fff'}}>
                   Why are they so interesting?
                 </Accordion.Toggle>
               </Card.Header>
@@ -130,8 +130,8 @@ const accordion = () => (
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="text" eventKey="3">
+              <Card.Header style={{backgroundColor:'#0358B6'}}>
+                <Accordion.Toggle as={Button} variant="text" eventKey="3" style={{color:'#fff'}}>
                   How do NFTs work?
                 </Accordion.Toggle>
               </Card.Header>
@@ -140,8 +140,8 @@ const accordion = () => (
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="text" eventKey="4">
+              <Card.Header style={{backgroundColor:'#0358B6'}}>
+                <Accordion.Toggle as={Button} variant="text" eventKey="4" style={{color:'#fff'}}>
                   How do we make an NFT? What’s a wallet?
                 </Accordion.Toggle>
               </Card.Header>
@@ -150,8 +150,8 @@ const accordion = () => (
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="text" eventKey="5">
+              <Card.Header style={{backgroundColor:'#0358B6'}}>
+                <Accordion.Toggle as={Button} variant="text" eventKey="5" style={{color:'#fff'}}>
                   What’s minting?
                 </Accordion.Toggle>
               </Card.Header>
@@ -160,8 +160,8 @@ const accordion = () => (
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="text" eventKey="6">
+              <Card.Header style={{backgroundColor:'#0358B6'}}>
+                <Accordion.Toggle as={Button} variant="text" eventKey="6" style={{color:'#fff'}}>
                   Ok, ok. NFTs, wallets, minting… but what are we even trying to do?
                 </Accordion.Toggle>
               </Card.Header>
@@ -172,8 +172,8 @@ const accordion = () => (
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="text" eventKey="7">
+              <Card.Header style={{backgroundColor:'#0358B6'}}>
+                <Accordion.Toggle as={Button} variant="text" eventKey="7" style={{color:'#fff'}}>
                   So, what’s the whole concept?
                 </Accordion.Toggle>
               </Card.Header>
@@ -182,8 +182,8 @@ const accordion = () => (
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="text" eventKey="8">
+              <Card.Header style={{backgroundColor:'#0358B6'}}>
+                <Accordion.Toggle as={Button} variant="text" eventKey="8" style={{color:'#fff'}}>
                   Wow...that is something we all need to do right now! Who's behind this project?
                 </Accordion.Toggle>
               </Card.Header>

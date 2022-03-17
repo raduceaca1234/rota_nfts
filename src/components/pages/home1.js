@@ -74,10 +74,11 @@ const timelineInfo = [
 const homeone = () => (
   <div>
     <GlobalStyles />
-    
+
     <section className="jumbotron no-bg">
       <Particle />
       <SliderMainParticle />
+
     </section>
 
     <section className='container'>
@@ -108,13 +109,12 @@ const homeone = () => (
     </section>
 
 
-      <Accordion/>
 
-      {/* <ColumnNew /> */}
-
+    {/* <ColumnNew /> */}
 
 
-    <section className='container-fluid bg-gray'>
+
+    {/* <section className='container-fluid bg-gray'>
       <div className='row'>
         <div className='col-lg-12'>
           <div className='text-center'>
@@ -130,7 +130,7 @@ const homeone = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
     <section className='container'>
       <div className='row'>
@@ -138,6 +138,7 @@ const homeone = () => (
           <div className='text-center'>
             <h2>Team</h2>
             <div className="small-border"></div>
+            <h2>Members of</h2>
           </div>
         </div>
         <div className='col-lg-12'>
@@ -145,6 +146,8 @@ const homeone = () => (
         </div>
       </div>
     </section>
+
+    <Accordion />
 
     <Footer />
 

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from '@reach/router';
+import { BsDiscord, BsInstagram, BsTwitter } from 'react-icons/bs';
+import { AiFillFacebook } from 'react-icons/ai';
 
 const footer = () => (
     <footer className="footer-light">
@@ -55,9 +57,22 @@ const footer = () => (
                             </div>
                             <div className="de-flex-col">
                                 <div className="social-icons">
-                                    <span onClick={() => window.open("", "_self")}><i className="fa fa-facebook fa-lg"></i></span>
-                                    <span onClick={() => window.open("", "_self")}><i className="fa fa-twitter fa-lg"></i></span>
-                                    <span onClick={() => window.open("", "_self")}><i className="fa fa-linkedin fa-lg"></i></span>
+                                    <span onClick={() => {
+                                        window.location.href = 'https://discord.gg/u8en2eZk';
+                                        return null;
+                                    }}><i><BsDiscord /></i></span>
+                                    <span onClick={() => {
+                                        window.location.href = 'https://twitter.com/NFTNoWar';
+                                        return null;
+                                    }}><i><BsTwitter /></i></span>
+                                    <span onClick={() => {
+                                        window.location.href = 'https://www.instagram.com/nowarnft_egld/';
+                                        return null;
+                                    }}><i><BsInstagram /></i></span>
+                                    <span onClick={() => {
+                                        window.location.href = 'https://www.facebook.com/nowarnft';
+                                        return null;
+                                    }}><i><AiFillFacebook /></i></span>
                                 </div>
                             </div>
                         </div>

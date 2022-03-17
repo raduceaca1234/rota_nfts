@@ -72,36 +72,38 @@ export default class Responsive extends Component {
 
  render() {
   return (
-    <div className='row'>
-        {this.state.nfts.map( (nft, index) => (
-            <div key={index} className="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                <div className="nft__item_custom">
-                    {/* <div className="author_list_pp">
-                        <span onClick={()=> window.open(nft.authorLink, "_self")}>                                    
-                            <img className="lazy" src={nft.authorImg} alt=""/>
-                            <i className="fa fa-check"></i>
-                        </span>
-                    </div> */}
-                    <div className="nft__item_wrap" style={{height: `${this.state.height}px`}}>
-                      <Outer>
-                        <span onClick={()=> window.open(nft.previewLink, "_self")}>
-                            <img onLoad={this.onImgLoad} src={nft.previewImg} className="lazy nft__item_preview" alt=""/>
-                        </span>
-                      </Outer>
-                    </div>
-                    <div className="nft__item_info2">
-                        <span onClick={()=> window.open(nft.nftLink, "_self")}>
-                            <h4>{nft.title}</h4>
-                        </span>
-                        <div className="nft__item_price" style={{}}>
-                            {nft.price}
-                        </div>                      
-                    </div> 
-                </div>
-            </div>  
-        ))}
-        
+    <div className='team'>
+        <div style={{height: 300, width: 200}}></div>
     </div>              
     );
 }
 }
+
+
+// {this.state.nfts.map( (nft, index) => (
+//     <div key={index} className="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+//         <div className="nft__item_custom">
+//             {/* <div className="author_list_pp">
+//                 <span onClick={()=> window.open(nft.authorLink, "_self")}>                                    
+//                     <img className="lazy" src={nft.authorImg} alt=""/>
+//                     <i className="fa fa-check"></i>
+//                 </span>
+//             </div> */}
+//             <div className="nft__item_wrap" style={{height: `${this.state.height}px`}}>
+//               <Outer>
+//                 <span onClick={()=> window.open(nft.previewLink, "_self")}>
+//                     <img onLoad={this.onImgLoad} src={nft.previewImg} className="lazy nft__item_preview" alt=""/>
+//                 </span>
+//               </Outer>
+//             </div>
+//             <div className="nft__item_info2">
+//                 <span onClick={()=> window.open(nft.nftLink, "_self")}>
+//                     <h4>{nft.title}</h4>
+//                 </span>
+//                 <div className="nft__item_price" style={{}}>
+//                     {nft.price}
+//                 </div>                      
+//             </div> 
+//         </div>
+//     </div>  
+// ))}

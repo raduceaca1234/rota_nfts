@@ -894,6 +894,7 @@ a{
     .menu{
       display: flex;
       justify-content: flex-end;
+
     }
     .nav-icon{
       display: none;
@@ -1387,6 +1388,17 @@ a{
   }
 
 }
+
+.team {
+  background-image: url('./1.png');
+  background-size: 100% 100%;
+  @media only screen and (max-width: 768px) {
+    background-image: url('./12.png');
+    background-size: 100% 100%;
+  }
+}
+
+
 /*** breadcumb ***/
 .breadcumb{
   border-radius: 0;
@@ -1491,6 +1503,38 @@ a{
   
   margin-bottom: .5rem;
 }
+
+.social-icons {
+  margin-top: 2%;
+  display: inline-block;
+  span {
+    margin-left: 10px;
+    color: #595d69;
+    i {
+      text-shadow: none;
+      color: $white;
+      background: $color_more;
+      padding: 12px 12px 12px 12px;
+      width: 40%;
+      height: 40%;
+      text-align: center;
+      font-size: 16px;
+      border-radius: 5px;
+      margin: 0 5px 0 5px;
+      transition: .3s;
+    }
+    &:hover i{
+      color: $black;
+      background: $white;
+      transition: .3s;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 10%;
+  }
+}
+
 .col-feature{
   display: block;
   .sub-color{
@@ -1702,9 +1746,9 @@ footer{
             text-shadow: none;
             color: $white;
             background: $color_more;
-            padding: 12px 10px 8px 10px;
-            width: 34px;
-            height: 34px;
+            padding: 12px 12px 12px 12px;
+            width: 40%;
+            height: 40%;
             text-align: center;
             font-size: 16px;
             border-radius: 5px;

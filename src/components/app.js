@@ -65,6 +65,11 @@ const app = () => (
   <div className="wraper">
     <GlobalStyles />
     <Header />
+    <Location>
+      <Route path='/privacy-policy' component={() => {
+        <Link to={{ pathname: "https://example.zendesk.com/hc/en-us/articles/123456789-Privacy-Policies" }} target="_blank" />
+      }} />
+    </Location>
     <PosedRouter>
       <ScrollTop path="/">
         <Home exact path="/">
