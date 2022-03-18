@@ -131,6 +131,26 @@ const Header = function () {
                       <span className='lines'></span>
                     </NavLink>
                   </div>
+                  <div className="social-icons" style={{display: 'flex', flexDirection: 'row'}}>
+
+                    <span onClick={() => {
+                      window.location.href = 'https://discord.gg/u8en2eZk';
+                      return null;
+                    }}><i><BsDiscord /></i></span>
+                    <span onClick={() => {
+                      window.location.href = 'https://twitter.com/NFTNoWar';
+                      return null;
+                    }}><i><BsTwitter /></i></span>
+                    <span onClick={() => {
+                      window.location.href = 'https://www.instagram.com/nowarnft_egld/';
+                      return null;
+                    }}><i><BsInstagram /></i></span>
+                    <span onClick={() => {
+                      window.location.href = 'https://www.facebook.com/nowarnft';
+                      return null;
+                    }}><i><AiFillFacebook /></i></span>
+
+                  </div>
                   {/* <div className='navbar-item'>
                   <div ref={ref1}>
                     <div className="dropdown-custom dropdown-toggle btn"
@@ -207,7 +227,26 @@ const Header = function () {
                     <span className='lines'></span>
                   </NavLink>
                 </div>
+                <div className="social-icons" style={{ marginTop: '8%' }}>
 
+                  <span onClick={() => {
+                    window.location.href = 'https://discord.gg/u8en2eZk';
+                    return null;
+                  }}><i><BsDiscord /></i></span>
+                  <span onClick={() => {
+                    window.location.href = 'https://twitter.com/NFTNoWar';
+                    return null;
+                  }}><i><BsTwitter /></i></span>
+                  <span onClick={() => {
+                    window.location.href = 'https://www.instagram.com/nowarnft_egld/';
+                    return null;
+                  }}><i><BsInstagram /></i></span>
+                  <span onClick={() => {
+                    window.location.href = 'https://www.facebook.com/nowarnft';
+                    return null;
+                  }}><i><AiFillFacebook /></i></span>
+
+                </div>
                 {/* <div className='navbar-item'>
                   <div ref={ref1}>
                     <div className="dropdown-custom dropdown-toggle btn"
@@ -270,12 +309,7 @@ const Header = function () {
             </Breakpoint>
           </BreakpointProvider>
 
-          <div className='mainside'>
-            <span onClick={() => {
-              window.location.href = 'https://discord.gg/u8en2eZk';
-              return null;
-            }} className="btn-main inline lead">Participate</span>
-          </div>
+
 
         </div>
 

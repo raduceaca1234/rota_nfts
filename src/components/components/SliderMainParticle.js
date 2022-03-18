@@ -55,7 +55,7 @@ const slidermainparticle = () => (
         </Reveal>
       </div>
     </div>
-    <div className="de-flex-col">
+    {/* <div className="de-flex-col">
       <div className="social-icons">
         <Reveal className='onStep d-inline' keyframes={inline} delay={800} duration={900} triggerOnce>
           <span onClick={() => {
@@ -76,7 +76,7 @@ const slidermainparticle = () => (
           }}><i><AiFillFacebook /></i></span>
         </Reveal>
       </div>
-    </div>
+    </div> */}
   </div>
 );
 export default slidermainparticle;
