@@ -20,7 +20,6 @@ const RoadMap = ({data}) => {
                             key={key}
                             timelineClass={item.timelineClass}
                             title={item.title}
-                            date_from={item.date_from}
                             date_to={item.date_to}
                           />
                         ))}

@@ -47,27 +47,27 @@ const GlobalStyles = createGlobalStyle`
 const timelineInfo = [
   {
     timelineClass: "block block-left",
-    title: 'Medicine',
+    title: 'Phase 1',
     date_from: '40%',
-    date_to: 'To medical supplies for people from Ukraine as well as for Refugees.'
+    date_to: 'Plan: Phase 1 consist of identifying a solution for raising funds to help the refugees and building a team to create the plan and implement '
   },
   {
     timelineClass: "block block-right mt-30",
-    title: 'Essentials',
+    title: 'Phase 2',
     date_from: '30%',
-    date_to: 'To hygiene products and elementary items'
+    date_to: 'Community build: Promoting the projects and creating partnerships'
   },
   {
     timelineClass: "block block-left mt-30",
-    title: 'Goods',
+    title: 'Phase 3',
     date_from: '20%',
-    date_to: 'To non-perishable goods, housing, transport and integration in the new community'
+    date_to: 'Launch: Phase 3 consist of minting NFT, posting on NFT marketplace and answering question from potential buyers.'
   },
   {
     timelineClass: "block block-right mt-30",
-    title: 'Community',
+    title: 'Phase 4',
     date_from: '10%',
-    date_to: 'We will let the community vote on how this % to be spent depending on the needs'
+    date_to: 'Donate/causes'
   }
 ]
 
@@ -85,7 +85,7 @@ const homeone = () => (
       <div className='row'>
         <div className='col-lg-12'>
           <div className='text-center'>
-            <h2>Funds Allocation</h2>
+            <h2>Roadmap</h2>
             <div className="small-border"></div>
           </div>
         </div>
