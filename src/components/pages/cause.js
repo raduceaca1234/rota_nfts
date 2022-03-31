@@ -1,7 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Tabs, Tab } from "react-bootstrap";
 import Footer from '../components/footer';
 import { createGlobalStyle } from 'styled-components';
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import Sample from './Sample'
+function MyApp() {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
+  return (
+    <div>
+      <Document file="WhitepaperNoWarNFT.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+        <Page pageNumber={pageNumber} />
+      </Document>
+      <p>
+        Page {pageNumber} of {numPages}
+      </p>
+    </div>
+  );
+}
 
 const GlobalStyles = createGlobalStyle`
   header#myHeader.navbar.sticky.white {
@@ -51,6 +72,16 @@ const tabs = () => (
           </div>
         </div>
       </div>
+    </section>
+
+    <section className="container">
+
+      <div className="column">
+        <div className='row-md-6 mt-3'>
+          {Sample()}
+        </div>
+      </div>
+
     </section>
 
     <section className="container">
