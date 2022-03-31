@@ -21,6 +21,7 @@ const RoadMap = ({data}) => {
                             timelineClass={item.timelineClass}
                             title={item.title}
                             date_to={item.date_to}
+                            
                           />
                         ))}
                       <div className="circle"></div>

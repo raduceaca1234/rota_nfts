@@ -49,25 +49,25 @@ const timelineInfo = [
     timelineClass: "block block-left",
     title: 'Phase 1',
     date_from: '40%',
-    date_to: 'Plan: Phase 1 consist of identifying a solution for raising funds to help the refugees and building a team to create the plan and implement '
+    date_to: 'Plan: identifying a solution for raising funds to help the Ukrainian refugees and building a team to create the plan and implement it.'
   },
   {
     timelineClass: "block block-right mt-30",
     title: 'Phase 2',
     date_from: '30%',
-    date_to: 'Community build: Promoting the projects and creating partnerships'
+    date_to: 'Community: promoting the project, building the community around it and creating partnerships.'
   },
   {
     timelineClass: "block block-left mt-30",
     title: 'Phase 3',
     date_from: '20%',
-    date_to: 'Launch: Phase 3 consist of minting NFT, posting on NFT marketplace and answering question from potential buyers.'
+    date_to: 'Launch: minting the NFTs & publishing the NFT collection on trust.market.'
   },
   {
     timelineClass: "block block-right mt-30",
     title: 'Phase 4',
     date_from: '10%',
-    date_to: 'Donate/causes'
+    date_to: 'Donating the funds to causes that support the Ukrainians and their refugees.'
   }
 ]
 
@@ -81,8 +81,8 @@ const homeone = () => (
 
     </section>
 
-    <section className='container'>
-      <div className='row'>
+    <section className='container' >
+      <div className='row' style={{marginBottom: -50}}>
         <div className='col-lg-12'>
           <div className='text-center'>
             <h2>Roadmap</h2>

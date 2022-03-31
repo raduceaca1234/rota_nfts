@@ -134,7 +134,7 @@ const Header = function () {
                   <div className="social-icons" style={{display: 'flex', flexDirection: 'row'}}>
 
                     <span onClick={() => {
-                      window.location.href = 'https://discord.gg/u8en2eZk';
+                      window.location.href = 'https://discord.gg/zEH87mrrwE';
                       return null;
                     }}><i><BsDiscord /></i></span>
                     <span onClick={() => {
@@ -230,7 +230,7 @@ const Header = function () {
                 <div className="social-icons" style={{ marginTop: '8%' }}>
 
                   <span onClick={() => {
-                    window.location.href = 'https://discord.gg/u8en2eZk';
+                    window.location.href = 'https://discord.gg/zEH87mrrwE';
                     return null;
                   }}><i><BsDiscord /></i></span>
                   <span onClick={() => {

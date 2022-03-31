@@ -48,7 +48,7 @@ const slidermainparticle = () => (
             return null;
           }} className="btn-main inline lead">Explore</span>
           <span onClick={() => {
-            window.location.href = 'https://discord.gg/u8en2eZk';
+            window.location.href = 'https://discord.gg/zEH87mrrwE';
             return null;
           }} className="btn-main inline white lead">Join</span>
           <div className="mb-sm-30"></div>

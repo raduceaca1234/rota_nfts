@@ -58,7 +58,7 @@ const footer = () => (
                             <div className="de-flex-col">
                                 <div className="social-icons">
                                     <span onClick={() => {
-                                        window.location.href = 'https://discord.gg/u8en2eZk';
+                                        window.location.href = 'https://discord.gg/zEH87mrrwE';
                                         return null;
                                     }}><i><BsDiscord /></i></span>
                                     <span onClick={() => {

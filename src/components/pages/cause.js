@@ -105,11 +105,9 @@ const tabs = () => (
               </Tab>
               <Tab eventKey="contact" title="What are the benefits?">
                 <div>
-                  <p>All the money will be donated and you will help Ukraine.</p>
-                  <p>We know what are the exact needs and you will be assured your money is not wasted. For example, there are a lot of aliments that have been bought and send to the borders and there is not a big need for that. People want ho help but do not know how or where.
-                    Our organization will manage all the funds and be transparent in the process.
-                  </p>
-                  <p>You will receive a cool NFT piece that you can show of, keep, resell or do as you wish with it.</p>
+                  <p>All the money will be donated to help Ukrainian refugees.</p>
+                  <p>We know what the exact needs are, and you can be sure your donation is not wasted. For example, there is plenty of food that has been bought and sent to the borders, so there's not a great need for food. People want to help, but do not know how. Our organization will manage all the funds and be transparent throughout the process.</p>
+                  <p>You will receive a cool NFT that you can show off, keep and even resell.</p>
                 </div>
               </Tab>
               <Tab eventKey="Parties" title="Did I hear Parties?">
