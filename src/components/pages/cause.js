@@ -67,7 +67,7 @@ const tabs = () => (
           <div className='row m-10-hor'>
             <div className='col-12 text-center'>
               <h1>Whitepaper</h1>
-              <p>Description</p>
+              <p>Handbook of the project</p>
             </div>
           </div>
         </div>
