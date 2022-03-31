@@ -141,14 +141,14 @@ const tabs = () => (
                   <p>You will receive a cool NFT that you can show off, keep and even resell.</p>
                 </div>
               </Tab>
-              <Tab eventKey="Parties" title="Did I hear Parties?">
+              {/* <Tab eventKey="Parties" title="Did I hear Parties?">
                 <div>
                   <p>Every year we will organize a National Conference where you as a non-Rotaract member will be able to join if you own a NFT.</p>
                   <p>We will have trainings from different domains, learn new skills, team work and at the end socializing and parties.
                   </p>
                   <p>You probably heard that before on other projects, what is different is that we have these conferences every year, and it will not be our first one. We have experience on that side and every Rotaract member can confirm.</p>
                 </div>
-              </Tab>
+              </Tab> */}
               <Tab eventKey="Royalties" title="Do you have Royalties?">
                 <div>
                   <p>We will have 10% royalty from every transaction. We do that to ensure you we will be here along the project working hard. </p>

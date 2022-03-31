@@ -10,7 +10,7 @@ const options = {
 };
 
 export default function Sample() {
-  const [file, setFile] = useState('./WhitepaperNoWarNFT.pdf');
+  const [file, setFile] = useState('./WhitepaperNoWarNFT1.pdf');
   const [numPages, setNumPages] = useState(null);
 
   function onFileChange(event) {
